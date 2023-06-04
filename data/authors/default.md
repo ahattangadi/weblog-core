@@ -1,16 +1,15 @@
 ---
-name: Tails Azimuth
+name: Aarav Hattangadi
 avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
-linkedin: https://www.linkedin.com
-github: https://github.com
+occupation: Student, Programmer, Pianist
+# company: ''
+email: aarav@hattangadi.com
+twitter: https://twitter.com/a_hattangadi
+# linkedin: https://www.linkedin.com
+github: https://github.com/ahattangadi
+mastodon: https://hachyderm.io/@ahattangadi
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+I'm Aarav Hattangadi. A 13 year old student from Mumbai, India who has an interest in programming, and all things related to technology. I also like to [play the piano](https://youtube.com/@ThePianoKid).
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I'm also on [GitHub](https://github.com/ahattangadi), [Twitter](https://twitter.com/a_hattangadi), and [Mastodon](https://hachyderm.io/@ahattangadi). If you want to email me, go ahead and send an email to <a href="mailto:aarav@hattangadi.com?subject=From your blog">aarav@hattangadi.com</a>
