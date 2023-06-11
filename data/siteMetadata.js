@@ -5,7 +5,7 @@ const siteMetadata = {
   description: 'A space for me to share my thoughts and ideas.',
   language: 'en-in',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://hattangadi.com/blog/',
+  siteUrl: 'https://blog.hattangadi.com/',
   siteRepo: 'https://github.com/ahattangadi/blog-temp',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
@@ -16,7 +16,7 @@ const siteMetadata = {
   //facebook: 'https://facebook.com',
   youtube: 'https://youtube.com/@ThePianoKid',
   //linkedin: 'https://www.linkedin.com',
-  mastodon: 'https://hachyderm.io/@ahattangadi',
+  mastodon: 'https://dotnet.social/@ahattangadi',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
