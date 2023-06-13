@@ -7,7 +7,7 @@ email: aarav@hattangadi.com
 twitter: https://twitter.com/a_hattangadi
 # linkedin: https://www.linkedin.com
 github: https://github.com/ahattangadi
-mastodon: https://dotnet.social/@ahattangadi
+mastodon: https://hachyderm.io/@ahattangadi
 ---
 
 I'm Aarav Hattangadi. A 13 year old student from Mumbai, India who has an interest in programming, and all things related to technology. I also like to [play the piano](https://youtube.com/@ThePianoKid).
