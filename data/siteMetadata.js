@@ -16,7 +16,7 @@ const siteMetadata = {
   //facebook: 'https://facebook.com',
   youtube: 'https://youtube.com/@ThePianoKid',
   //linkedin: 'https://www.linkedin.com',
-  mastodon: 'https://dotnet.social/@ahattangadi',
+  mastodon: 'https://hachyderm.io/@ahattangadi',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
