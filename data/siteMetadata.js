@@ -5,8 +5,8 @@ const siteMetadata = {
   description: 'A space for me to share my thoughts and ideas.',
   language: 'en-in',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://blog.hattangadi.com/',
-  siteRepo: 'https://github.com/ahattangadi/blog-temp',
+  siteUrl: 'https://www.blog.hattangadi.com/',
+  siteRepo: 'https://github.com/ahattangadi/weblog-core',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
