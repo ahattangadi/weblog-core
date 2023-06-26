@@ -9,7 +9,7 @@ const siteMetadata = {
   siteRepo: 'https://github.com/ahattangadi/weblog-core',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
-  socialBanner: '/static/images/twitter-card.png',
+  socialBanner: '',
   email: 'aarav@hattangadi.com',
   github: 'https://github.com/ahattangadi',
   twitter: 'https://twitter.com/a_hattangadi',
