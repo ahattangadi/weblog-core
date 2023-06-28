@@ -4,8 +4,18 @@ import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
+import Spacer from '@/components/Spacer'
 
-import NewsletterForm from '@/components/NewsletterForm'
+function getAge(dateString) {
+  var today = new Date()
+  var birthDate = new Date(dateString)
+  var age = today.getFullYear() - birthDate.getFullYear()
+  var m = today.getMonth() - birthDate.getMonth()
+  if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+    age--
+  }
+  return age
+}
 
 const MAX_DISPLAY = 5
 
@@ -19,12 +29,27 @@ export default function Home({ posts }) {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-            Recent posts
-          </h1>
+      <div>
+        <div className="my-6 flex flex-col items-center gap-x-12 xl:mb-12 xl:flex-row">
+          <div className="pt-6">
+            <h1 className="pb-6 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+              Hi, I’m Aarav
+            </h1>
+            <h2 className="prose text-lg text-gray-600 dark:text-gray-400">
+              {`I'm a ${getAge(
+                '2009-09-24'
+              )} year old student from India. Welcome to my website! I write about my projects, and sometimes my thoughts. In my free time, I like developing `}
+              <Link href="https://github.com/ahattangadi/">various computer programs</Link>
+              {' and '}
+              <Link href="https://youtube.com/@ThePianoKid">playing the piano</Link>
+            </h2>
+          </div>
+          <div className="mx-2 my-12 flex w-96 items-center justify-center"></div>
         </div>
+        <h2 className="flex pb-6 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl md:text-5xl">
+          Latest
+        </h2>
+        <hr className="border-gray-200 dark:border-gray-700" />
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
