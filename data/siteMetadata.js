@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: "Aarav Hattangadi's Blog",
+  title: 'Aarav Hattangadi',
   author: 'Aarav Hattangadi',
   headerTitle: 'Aarav Hattangadi',
   description: 'A space for me to share my thoughts and ideas.',
