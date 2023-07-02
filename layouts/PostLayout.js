@@ -85,16 +85,19 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                 </ul>
               </dd>
             </dl>
-            <div className="divide-y divide-gray-200 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
+            <div className="xl:col-span-3 xl:row-span-2 xl:pb-0">
               <div className="prose max-w-none pt-10 pb-8 dark:prose-dark">{children}</div>
               <div className="prose pt-6 pb-6 text-sm text-gray-700 dark:text-gray-300">
+                Thanks for reading 💖! <br />
                 Follow me on <Link href={siteMetadata.mastodon}>Mastodon</Link>,{' '}
                 <Link href={siteMetadata.twitter}>Twitter</Link>, or subscribe via{' '}
                 <Link href="/feed.xml">RSS</Link>
-                {/* {` • `} */}
-                {/* <Link href={editUrl(fileName)}>{'View on GitHub'}</Link> */}
+                {` • `}
+                <Link href={editUrl(fileName)}>{'View on GitHub'}</Link>
               </div>
-              {/* <Comments frontMatter={frontMatter} /> */}
+              <div className="divide-y divide-gray-200 !border-t-0 dark:divide-gray-700 xl:col-span-3 xl:row-span-2 xl:pb-0">
+                <Comments frontMatter={frontMatter} />
+              </div>
             </div>
             <footer>
               <div className="divide-gray-200 text-sm font-medium leading-5 dark:divide-gray-700 xl:col-start-1 xl:row-start-2 xl:divide-y">

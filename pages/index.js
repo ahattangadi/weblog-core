@@ -1,10 +1,10 @@
 import Link from '@/components/Link'
+import NowPlaying from '@/components/NowPlaying'
 import { PageSEO } from '@/components/SEO'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
 import formatDate from '@/lib/utils/formatDate'
-import Spacer from '@/components/Spacer'
 
 function getAge(dateString) {
   var today = new Date()
@@ -46,8 +46,8 @@ export default function Home({ posts }) {
           </div>
           <div className="mx-2 my-12 flex w-96 items-center justify-center"></div>
         </div>
-        <h2 className="flex pb-6 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl md:text-5xl">
-          Latest
+        <h2 className="flex pb-6 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-gray-100 sm:text-2xl md:text-3xl">
+          Latest Posts
         </h2>
         <hr className="border-gray-200 dark:border-gray-700" />
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">

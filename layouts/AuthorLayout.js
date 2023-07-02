@@ -1,6 +1,7 @@
 import SocialIcon from '@/components/social-icons'
 import Image from '@/components/Image'
 import { PageSEO } from '@/components/SEO'
+// import { NowPlaying } from '@/components/NowPlaying'
 
 export default function AuthorLayout({ children, frontMatter }) {
   const { name, avatar, occupation, company, email, twitter, linkedin, github, mastodon } =
@@ -34,6 +35,9 @@ export default function AuthorLayout({ children, frontMatter }) {
               <SocialIcon kind="twitter" href={twitter} />
               <SocialIcon kind="mastodon" href={mastodon} />
             </div>
+            {/* <div className="pt-6">
+              <NowPlaying />
+            </div> */}
           </div>
           <div className="prose max-w-none pt-8 pb-8 dark:prose-dark xl:col-span-2">{children}</div>
         </div>
