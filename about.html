@@ -1,0 +1,55 @@
+---
+layout: default
+title: About
+permalink: /about/
+date: 2022-05-30
+---
+
+<h1>About</h1>
+
+<p>
+  Hey, I’m Aarav, a <span id="age"></span> year old student from Mumbai, India
+  who has an interest in programming, and all things related to technology. I
+  also like to <a href="https://youtube.com/@ThePianoKid">play the piano</a>.
+</p>
+<p>
+  I like to spend my time building projects that interest me, as well as pushing
+  myself to learn more and share my knowledge with others.
+</p>
+<p>
+  I have the most experience with C# and JavaScript, but I&#39;m always
+  exploring new languages.
+</p>
+<p>
+  You can find me on <a href="https://github.com/ahattangadi">GitHub</a>,
+  <a href="https://twitter.com/a_hattangadi">Twitter</a>, and
+  <a href="https://hachyderm.io/@ahattangadi">Mastodon</a>. If you want to email
+  me, go ahead and send an email to
+  <a href="mailto:aarav@hattangadi.com?subject=From your blog"
+    >aarav@hattangadi.com</a
+  >
+</p>
+
+<script>
+  function calculateAge(birthDate, otherDate) {
+    birthDate = new Date(birthDate);
+    otherDate = new Date(otherDate);
+
+    var years = otherDate.getFullYear() - birthDate.getFullYear();
+
+    if (
+      otherDate.getMonth() < birthDate.getMonth() ||
+      (otherDate.getMonth() == birthDate.getMonth() &&
+        otherDate.getDate() < birthDate.getDate())
+    ) {
+      years--;
+    }
+
+    return years;
+  }
+
+  document.getElementById("age").innerHTML = calculateAge(
+    "2009-09-24",
+    new Date()
+  );
+</script>

@@ -1,0 +1,14 @@
+---
+title: Aarav Hattangadi
+layout: default
+---
+{% for post in site.posts %}	
+    <div class="post">
+        <small>{{ post.date | date: "%-d %B %Y" }}</small>
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <div class="entry">
+            {{ post.content }}
+        </div>
+        <hr>
+    </div>
+{% endfor %}
