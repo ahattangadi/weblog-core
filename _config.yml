@@ -1,10 +1,22 @@
 title: Aarav Hattangadi
+tagline: "The human side of technology"
 logo: /assets/img/logo.png
 email: aarav@hattangadi.com
 url: https://www.hattangadi.com
 blank_title: true
 favicon: true
-description: ""
+description: "A space for me to document and share my encounters with technology"
+author: Aarav Hattangadi
+twitter:
+  username: a_hattangadi
+  card: summary
+social:
+  name: Aarav Hattangadi
+  links:
+    - https://twitter.com/a_hattangadi
+    - https://github.com/ahattangadi
+    - https://hachyderm.io/@ahattangadi
+
 show_downloads: false
 #google_analytics:
 remote_theme: BDHU/minimalist

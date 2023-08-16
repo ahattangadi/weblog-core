@@ -1,6 +1,6 @@
 - name: vTranslate
   link: github.com/ahattangadi/vTranslate
-  interactive_link: https://www.contoso.com/
+  # interactive_link: https://www.contoso.com/
   description: |-
                 vTranslate is an app I made for Android which allows the end-user to translate text between various languages. It uses Flutter for the UI, and the backend is driven by a library which utilises Google Translate to translate the text. Apart from text, it also accepts input as voice (through native APIs) and from the camera (through on-device OCR). The app is completely ad-free and open-source.
   tech_stack: Flutter, Dart
