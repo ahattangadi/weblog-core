@@ -1,12 +1,16 @@
 - name: vTranslate
-  link: github.com/ahattangadi/vTranslate
+  link: https://www.github.com/ahattangadi/vTranslate
   # interactive_link: https://www.contoso.com/
   description: |-
                 vTranslate is an app I made for Android which allows the end-user to translate text between various languages. It uses Flutter for the UI, and the backend is driven by a library which utilises Google Translate to translate the text. Apart from text, it also accepts input as voice (through native APIs) and from the camera (through on-device OCR). The app is completely ad-free and open-source.
   tech_stack: Flutter, Dart
+  images:
+    - /assets/images/projects/vTranslate_1.jpg
+    - /assets/images/projects/vTranslate_2.gif
+    - /assets/images/projects/vTranslate_3.gif
 
 - name: Nova Folder Creator
-  link: github.com/ahattangadi/NovaFolderCreator
+  link: htpts://www.github.com/ahattangadi/NovaFolderCreator
   description: |-
                 Nova Folder Creator is a WinForms application made using .NET 5. It allows the user to create multiple folders at the click of a button. It also allows the user to create a folder structure from a text file. The user can also save the folder structure to be utilised again. It is a simple application, but it is very useful for people who have to create a lot of folders on a regular basis, and are unfamiliar with the command line or other scripting languages.
   tech_stack: .NET, VB.NET, WinForms

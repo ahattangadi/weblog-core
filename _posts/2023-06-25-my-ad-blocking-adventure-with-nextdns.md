@@ -1,9 +1,13 @@
 ---
-layout: post
 title: My Ad-blocking adventure with NextDNS
 date: 2023-06-25
-author: Aarav Hattangadi
 tags: networking dns
+excerpt: "A customizable DNS service"
+header:
+    overlay_image: /assets/images/headers/nextdns.jpg
+    overlay_filter: 0.5
+    caption: "Photo credit: Brett Sayles, Pexels"
+    teaser: /assets/images/headers/nextdns.jpg
 ---
 
 A few months ago, I was on the lookout for a customizable DNS server, which would let me block ads, monitor traffic, and redirect custom domains to local IP addresses; akin to that of a [PiHole](https://pi-hole.net/), but without needing to run a DNS server 24x7.
@@ -53,5 +57,6 @@ The speed is decent as well, and I haven't noticed any issues with it. A `bulldo
 ```
 
 They also claim to offer malware and phishing protection, but I haven't gotten around to testing that out yet.
+
 [^1]: [NextDNS Pricing](https://nextdns.io/pricing)
 [^2]: At the time of writing, once the 300k requests are exhausted, the service will only work as a normal DNS resolver (i.e., no ad-blocking/rewrites/logging/analytics) until the next month.

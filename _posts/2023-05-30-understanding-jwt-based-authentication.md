@@ -1,8 +1,6 @@
 ---
-layout: post
 title: 'Understanding JWT-Based Authentication'
 date: 2023-05-30
-author: Aarav Hattangadi
 tags: authentication
 ---
 

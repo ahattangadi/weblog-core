@@ -1,8 +1,6 @@
 ---
-layout: post
 title: Implementing JWT authentication in ASP.NET Core
 date: 2023-06-04
-author: Aarav Hattangaid
 tags: authentication asp.net
 ---
 

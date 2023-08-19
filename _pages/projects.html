@@ -1,0 +1,43 @@
+---
+permalink: /projects/
+title: Projects
+layout: single
+---
+
+<p>
+    This is where I showcase some of the cool and fun coding projects that I have
+    worked on. I love coding and learning new things, and these projects reflect
+    that. I'd love to hear your feedback and suggestions, so feel free to 
+    <a href="mailto:aarav@hattangadi.com">contact me</a> anytime.
+</p>
+
+<hr>
+
+{% for project in site.data.projects %}
+<nobr><h2>{{ project.name }}</h2></nobr> 
+<small>Made using {{ project.tech_stack }}</small>
+<p>
+    {{ project.description }}
+</p>
+
+{% if project.interactive_link %}
+    <a href="{{ project.interactive_link }}">Check it out here!</a> and <a href="{{ project.link }}">get the code on GitHub!</a>.
+
+{% else %}
+    <a href="{{ project.link }}">Get the code on GitHub!</a>
+
+{% endif %}
+
+<figure class="third">
+    {% for image in project.images %}
+        <a href="{{image}}">
+            <img src="{{image}}" alt="">
+        </a>
+    {% endfor %}
+</figure>
+
+{% endfor %}
+
+
+
+
