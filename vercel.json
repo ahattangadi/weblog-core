@@ -1,6 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/enigma/:subdir*", "destination": "https://https://enigmasharp-blazor.vercel.app/:subdir*" },
-    { "source": "/(.*)", "destination": "/" }
-  ]
-}

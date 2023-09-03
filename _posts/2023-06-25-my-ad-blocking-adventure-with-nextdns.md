@@ -58,5 +58,6 @@ The speed is decent as well, and I haven't noticed any issues with it. A `bulldo
 
 They also claim to offer malware and phishing protection, but I haven't gotten around to testing that out yet.
 
+
 [^1]: [NextDNS Pricing](https://nextdns.io/pricing)
 [^2]: At the time of writing, once the 300k requests are exhausted, the service will only work as a normal DNS resolver (i.e., no ad-blocking/rewrites/logging/analytics) until the next month.
